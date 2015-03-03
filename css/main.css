@@ -386,6 +386,26 @@ img {
 
 @media only screen and (min-width: 25em) {
     
+            .aboutus {
+        position: absolute;
+        top: 23em;
+    }
+
+    .servicesmark {
+        position: absolute;
+        top: 68em;
+        margin-bottom: 2em;
+    }
+
+    .gallerymark {
+        position: absolute;
+        top: 142em;
+    }
+
+    .contactmark {
+        position: absolute;
+        top: 205em;
+    }
     
      .logo {
         max-width: 12em;
@@ -438,7 +458,26 @@ img {
 
 @media only screen and (min-width: 38em) {
 
-   
+           .aboutus {
+        position: absolute;
+        top: 33em;
+    }
+
+    .servicesmark {
+        position: absolute;
+        top: 64em;
+        margin-bottom: 2em;
+    }
+
+    .gallerymark {
+        position: absolute;
+        top: 130em;
+    }
+
+    .contactmark {
+        position: absolute;
+        top: 168em;
+    }
     .logo {
     position: absolute;
     top: 0;
