@@ -139,6 +139,16 @@ img {
     text-decoration: none;
 }
 
+.gallerypics {
+    z-index: 400;
+    position: relative;
+    margin: 0 auto;
+    position: relative;
+    max-width: 70em;
+    text-align: center;
+    text-decoration: none;
+}
+
 .aboutus {
     position: absolute;
     top: 19em;
@@ -313,6 +323,93 @@ img {
     height: auto;
     margin: 0 auto;
 }
+
+.big {
+    height: 300px;
+    max-width: 640px;
+    border: .5em solid #fcb615;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto;
+    margin-bottom: 2em;
+}
+
+.go {
+    max-width: 3em;
+    margin: .5em;
+}
+
+.goone {
+    max-width: 3em;
+    margin: .5em;
+}
+
+.gotwo {
+    max-width: 3em;
+    margin: .5em;
+}
+
+.gothree {
+    max-width: 3em;
+    margin: .5em;
+}
+
+.gofour {
+    max-width: 3em;
+    margin: .5em;
+}
+
+.gofive {
+    max-width: 3em;
+    margin: .5em;
+}
+
+.gosix {
+    max-width: 3em;
+    margin: .5em;
+}
+
+.goseven {
+    max-width: 3em;
+    margin: .5em;
+}
+
+.goeight {
+    max-width: 3em;
+    margin: .5em;
+}
+
+.gonine {
+    max-width: 3em;
+    margin: .5em;
+}
+
+.goten {
+    max-width: 3em;
+    margin: .5em;
+}
+
+.goeleven {
+    max-width: 3em;
+    margin: .5em;
+}
+
+.gotwelve {
+    max-width: 3em;
+    margin: .5em;
+}
+
+.gothirteen {
+    max-width: 3em;
+    margin: .5em;
+}
+
+.gofourteen {
+    max-width: 3em;
+    margin: .5em;
+   
+}
+
 
 .footer {
     background-color: #00a9a7;
