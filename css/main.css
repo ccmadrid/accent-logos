@@ -303,6 +303,11 @@ img {
     background-image: url(../images/embroidery.jpg);
 }
 
+.emb-quote {
+    text-align: left;
+    line-height: 1.5em;
+}
+
 .width {
     max-width: 400px;
     height: auto;
@@ -532,6 +537,32 @@ img {
 }
 
 @media only screen and (min-width: 50em) {
+    
+       .aboutus {
+        position: absolute;
+        top: 33em;
+    }
+
+    .servicesmark {
+        position: absolute;
+        top: 60em;
+        margin-bottom: 2em;
+    }
+
+    .gallerymark {
+        position: absolute;
+        top: 102em;
+    }
+
+    .contactmark {
+        position: absolute;
+        top: 168em;
+    }
+    .logo {
+    position: absolute;
+    top: 0;
+    left: 2em;
+    }
     
     .anything {
     z-index: 4000;
