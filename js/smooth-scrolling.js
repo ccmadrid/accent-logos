@@ -26,6 +26,7 @@ var $goeleven = $('.goeleven');
 var $gotwelve = $('.gotwelve');
 var $gothirteen = $('.gothirteen');
 var $gofourteen = $('.gofourteen');
+var navtop = document.querySelector('.nav-top');
 
 
 $go.on('click', function (e) {
@@ -116,6 +117,17 @@ $gofourteen.on('click', function (e) {
     e.preventDefault();
     var bigPic = $gofourteen.attr('href');
     $big.css('background-image', 'url(' + bigPic + ')');
+});
+
+document.querySelector('.nav-btn').addEventListener('click', function (e) {
+    e.preventDefault();
+    if (navtop.getAttribute('data-state') == 'expanded') {
+    navtop.setAttribute('data-state', 'collapsed');
+    this.setAttribute('data-state', 'inactive');
+  } else {
+    navtop.setAttribute('data-state', 'expanded');
+    this.setAttribute('data-state', 'active');
+  }
 });
 
 
