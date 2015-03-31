@@ -49,12 +49,12 @@ img {
 }
 
 .logo {
-    max-width: 8em;
+    max-width: 12em;
     display: block;
     margin: 0 auto;
     overflow: hidden;
     z-index: 3000;
-    position: relative; 
+    position: fixed; 
     -webkit-filter: drop-shadow(0 1px 5px rgba(0,0,0,.5));
         -moz-filter: drop-shadow(0 1px 5px rgba(0,0,0,.5));
         -ms-filter: drop-shadow(0 1px 5px rgba(0,0,0,.5));
@@ -62,7 +62,7 @@ img {
         filter: drop-shadow(0 1px 5px rgba(0,0,0,.5));
 }
 
-.header{
+.header {
     display: block;
     width: 100%;
     background-color: #00a9a7;
@@ -73,7 +73,7 @@ img {
     margin-left: auto;
     margin-right: auto;
     color: white;
-    position: fixed;
+    position: absolute;
     z-index: 2000;
 }
 
@@ -145,8 +145,9 @@ img {
     background-image: url(../images/background-picture.jpg);
     max-width: 70em;
     text-align: center;
-    text-decoration: none;
+    text-decoration: none;  
 }
+
 
 .gallerypics {
     z-index: 400;
@@ -155,28 +156,23 @@ img {
     position: relative;
     max-width: 70em;
     text-align: center;
-    text-decoration: none;
+    text-decoration: none;   
 }
 
 .aboutus {
-    position: absolute;
-    top: 10em;
+    top: 10em;   
 }
 
 .servicesmark {
-    position: absolute;
-    top: 68em;
-    margin-bottom: 2em;
+    top: -12em;
 }
 
 .gallerymark {
-    position: absolute;
     top: 100em;
 }
 
-.contactmark {
-    position: absolute;
-    top: 282em;
+.contactmarks {
+    top: 300em; 
 }
 
 .byline {
@@ -249,8 +245,6 @@ img {
 	text-decoration: none;
 }
 
-
-
 .button-grid {
     text-align: center;
     text-decoration: none;
@@ -262,10 +256,11 @@ img {
 }
 
 .bucket-wrap {
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
     text-decoration: none;
     text-align: center;
-    align-content: center;
+    align-content: center center;
     max-width: 60em;
 }
 
@@ -493,6 +488,7 @@ img {
     z-index: 1000;
 }
 
+
 @media only screen and (min-width: 25em) {
     
     .aboutus {
@@ -568,7 +564,7 @@ img {
         background-size: 100%;
         background-repeat: repeat;
         color: white;
-        position: fixed;
+        position: absolute;
         z-index: 2000;
         height: 8em;
 }
@@ -610,7 +606,7 @@ img {
 
     .servicesmark {
         position: absolute;
-        top: 64em;
+        top: 2em;
         margin-bottom: 2em;
     }
 
@@ -625,7 +621,7 @@ img {
     }
     
     .logo {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 2em;
     }
@@ -680,26 +676,26 @@ img {
     
        .aboutus {
         position: absolute;
-        top: 33em;
+        top: 35em;
     }
 
     .servicesmark {
         position: absolute;
-        top: 60em;
+        top: 66em;
         margin-bottom: 2em;
     }
 
     .gallerymark {
         position: absolute;
-        top: 102em;
+        top: 110em;
     }
 
     .contactmark {
         position: absolute;
-        top: 168em;
+        top: 68em;
     }
     .logo {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 2em;
     }
