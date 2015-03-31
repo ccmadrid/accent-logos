@@ -326,6 +326,11 @@ img {
     margin: 0 auto;
 }
 
+.dannis {
+    align-content: left;
+    text-align: left
+}
+
 .big {
     height: 300px;
     max-width: 640px;
