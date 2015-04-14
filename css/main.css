@@ -260,8 +260,12 @@ img {
     margin-right: auto;
     text-decoration: none;
     text-align: center;
-    align-content: center center;
     max-width: 60em;
+}
+
+.gallerypics {
+	margin-left: auto;
+    margin-right: auto;
 }
 
 .hover-box {
@@ -308,12 +312,11 @@ img {
     background-repeat: no-repeat;
     background-position: center;
     background-color: none;
-    margin: 0;
+    margin: 0 auto;
     background-color: none;
     max-width: 5em;
     text-decoration: none;
     z-index: 4000;
-    background-image: url(../images/embroidery.jpg);
 }
 
 .emb-quote {
