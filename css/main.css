@@ -49,7 +49,7 @@ img {
 }
 
 .logo {
-    width: 8em;
+    max-width: 8em;
     display: inline-block;
     margin: 0 auto;
     overflow: hidden;
@@ -64,18 +64,29 @@ img {
 
 .header {
     display: block;
-    width: 100%;
+    width: : 110%;
 	height: 80px;
     background-color: #00a9a7;
     background-image: url(../images/textured_header.svg);
-    background-position: center center;
-    background-size: 100%;
+    background-position: top;
+    background-size: 100% 100%;
     background-repeat: repeat;
     margin-left: auto;
     margin-right: auto;
     color: white;
     position: relative;
     z-index: 2000;
+}
+
+.social-icons {
+	position: absolute;
+	right: -1em;
+	top: 10em;
+	z-index: 30000000;
+	background-color: #00a9a7;
+	max-width: 110px;
+	padding: none;
+	border-radius: 10px;
 }
 
 .signin {
@@ -138,6 +149,14 @@ img {
     z-index: 1000;
 }
 
+.about {
+	height: 100vh;
+}
+
+.services-wrap {
+	height: 100vh;
+}
+
 .services {
     z-index: 400;
     position: relative;
@@ -149,6 +168,13 @@ img {
     text-decoration: none;  
 }
 
+.gallery {
+	height: 100vh;
+}
+
+.contact {
+	height: 100vh;
+}
 
 .gallerypics {
     z-index: 400;
@@ -184,7 +210,6 @@ img {
     position: relative;
 }
 
-
 .anything {
     max-width: 25em;
     top: 20vh;
@@ -210,6 +235,7 @@ img {
 	background: transparent url("../images/icon-nav.svg") no-repeat 0 0;
 	text-indent: 100%;
 	white-space: nowrap; 
+	z-index: 100000;
 }
 
 /* Dropdown Menu */
@@ -231,7 +257,7 @@ img {
 }
 
 .nav-top ul { 
-	margin: 0;
+	text-align: center;
     padding: 1.5rem 0;
     list-style-type: none;
 }
@@ -247,7 +273,8 @@ img {
 }
 
 .button-grid {
-	text-align: center;
+	position: relative;
+	left: 2px;
     text-decoration: none;
 }
 
@@ -460,7 +487,6 @@ img {
 .twitter {
     max-width: 3em; 
     margin: 0;
-    
 }
 
 .facebook {
@@ -494,12 +520,14 @@ img {
 
 .how {
     background-color: #00a9a7;
+	background-image: url(../images/textured_header.svg);
     font-weight: 55em; 
     background-position: center center;
     background-size: 100%;
     text-align: center;
     position: relative;
     z-index: 1000;
+	text-align: center center;
 }
 
 
@@ -510,20 +538,18 @@ img {
         top: 23em;
     }
     
-    .button-grid {
-        margin: 0 auto;
-    }
+  .button-grid {
+	position: relative;
+  	left: 20%;
+	background-color: none;
+  }
 
     .servicesmark {
         position: absolute;
         top: 68em;
         margin-bottom: 2em;
     }
-    
-    main {
-        
-    }
-
+  
     .gallerymark {
         position: absolute;
         top: 142em;
@@ -535,7 +561,7 @@ img {
     }
     
      .logo {
-        max-width: 12em;
+        max-width: 10em;
         }
     
     .nav li {
@@ -586,7 +612,7 @@ img {
     .button {
         width: 6em;
         line-height: 1.5em;
-        border-radius: .2em;
+        border-radius: .5em;
         text-decoration: none;
         text-align: center;
         text-transform: capitalize;
@@ -596,15 +622,12 @@ img {
         overflow: hidden;
         z-index: 40000;
 }
-    .nav-lrg {
-        
-    }
-
-.button-grid {
-    text-align: center;
-    text-decoration: none;
-    
-}
+	
+    .button-grid {
+	position: relative;
+  	left: 5em;
+	background-color: none;
+  }
     .nav-top {
         position: relative;
         display: inline-block;
@@ -687,6 +710,15 @@ img {
 }
 
 @media only screen and (min-width: 50em) {
+	
+	.button-grid {
+	position: relative;
+  	left: 20%;
+	background-color: none;
+  }
+	.logo {
+		max-width: 12em;
+	}
     
        .aboutus {
         position: absolute;
@@ -739,6 +771,15 @@ img {
 }
 
 @media only screen and (min-width: 60em) {
+	
+	.button-grid {
+	position: relative;
+  	left: 30%;
+	background-color: none;
+  }
+	.logo {
+		max-width: 12em;
+	}
     
     .anything {
     z-index: 4000;
@@ -763,6 +804,7 @@ img {
         text-align: left;
     }
 }
+
 
 
 
