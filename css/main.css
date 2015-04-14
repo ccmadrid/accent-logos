@@ -332,8 +332,9 @@ img {
 	text-align: center;
 }
 
-h2 {
-	text-align: center;
+.bucket-text {
+	margin-right: 0;
+	margin-left: 0;
 }
 
 .dannis {
