@@ -78,17 +78,6 @@ img {
     z-index: 2000;
 }
 
-.social-icons {
-	position: absolute;
-	right: -1em;
-	top: 10em;
-	z-index: 30000000;
-	background-color: #00a9a7;
-	max-width: 110px;
-	padding: none;
-	border-radius: 10px;
-}
-
 .signin {
     position: relative;
     
@@ -133,6 +122,10 @@ img {
     background-position: center center;
     background-image: url(../images/billboard_background.svg);
     height: 100vh;
+}
+
+.social-icons {
+	display:;
 }
 
 .vig {
@@ -532,7 +525,7 @@ img {
 
 
 @media only screen and (min-width: 25em) {
-    
+	
     .aboutus {
         position: absolute;
         top: 23em;
@@ -594,6 +587,17 @@ img {
 }
 
 @media only screen and (min-width: 38em) {
+	
+	.social-icons {
+	position: absolute;
+	right: -1em;
+	top: 10em;
+	z-index: 30000000;
+	background-color: #00a9a7;
+	max-width: 110px;
+	padding: none;
+	border-radius: 10px;
+}
     
     .header{
         display: inline-block;
