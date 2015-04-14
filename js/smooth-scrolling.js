@@ -1,7 +1,6 @@
 
 $('.smooth').localScroll({
-            duration: 1200
-            
+            duration: 1200       
 });
 
 
