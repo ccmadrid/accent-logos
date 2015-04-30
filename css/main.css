@@ -356,7 +356,9 @@ header {
 }
 
 .section-head {
-	padding: 1em 1em 1em 5em;
+	font-family: 'Lobster', serif;
+	font-size: 2em;
+	padding: 0.5em 1em 0.5em 5em;
 	background-color: #00a9a7;
 	background-image: url("../images/textured_header.svg");
 	background-size: cover;
@@ -397,6 +399,7 @@ header {
 
 .services {
 	height: calc(200vw + 6em);
+	background-color: #000
 }
 
 .services h2 {
@@ -416,6 +419,7 @@ header {
   position: absolute;
   height: calc(100vh - 6em);
   top: 6em; left: 0; bottom: 0; right: 0;
+  z-index: -1;
 }
 
 /*.gallery-content .grid {
@@ -424,6 +428,8 @@ header {
 
 .gallery {
 	height: 100vh;
+	background-color: #000;
+	z-index: -2
 }
 
 .contact-list {
@@ -539,9 +545,9 @@ footer {
 	}
 
 	.section-head {
-		padding: 1em 1em 1em calc(6% + 7em);
-		font-size: 2em;
-	}
+  padding: 0em 1em 0em calc(6% + 7em);
+  font-size: 3em;
+}
 
 	.content {
 		height: auto;
