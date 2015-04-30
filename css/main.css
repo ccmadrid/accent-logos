@@ -375,7 +375,7 @@ header {
 }
 
 .about p {
-	margin: 0;
+	margin: auto;
 	max-width: 500px;
 }
 
@@ -385,18 +385,24 @@ header {
 	padding: 1em;
 }
 
-.about-img {
+.contact-img, .about-img {
+	height: 100%;
 	width: 100%;
-	max-width: 500px;
-}
-
-.clip {
+	overflow: hidden;
 	z-index: -1;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
 }
 
-.right {
-	padding: 0;
+.about-img {
+		background-image: url(../images/capital.jpg);
 }
+
+.contact-img {
+	background-image: url(../images/paintcan.jpg)
+}
+
 .services-content {
 	height: auto;
 	background-color: #000;
@@ -490,11 +496,9 @@ footer {
 	.services {
 		height: auto;
 	}
-
-	.right {
-		padding: 1em
-	}
 }
+
+
 
 @media only screen and (min-width: 35em) {
 	.nav-btn {
@@ -539,19 +543,22 @@ footer {
 		height: 3em;
 	}
 
+	.contact-img, .about-img {
+		width: 50%;
+	}
 }
 
 @media only screen and (min-width: 60em) {
 	.section {
 		height: auto;
 		overflow: hidden;
-		min-height: 36em;
+		min-height: 50vh;
 	}
 
 	.section-head {
-  padding: 0em 1em 0em calc(6% + 5em);
-  font-size: 3em;
-}
+		padding: 0em 1em 0em calc(6% + 5em);
+		font-size: 3em;
+	}
 
 	.content {
 		height: auto;
@@ -561,10 +568,6 @@ footer {
 		height: 100vh;
 	}
 
-/*	.gallery-content{
-		z-index: -1;
-}*/
-
 	.logo img {
 		left: 6%;
 		width: 10em;
@@ -572,17 +575,6 @@ footer {
 		z-index: 99999;
 	}
 
-/*	.left {
-		margin: 0 auto;
-		margin: right: 1em;
-		max-width: 500px;
-	}
-
-	.right {
-		margin: 0 auto;
-		margin-left: 1em;
-		max-width: 500px;
-	}*/
 }
 
 
