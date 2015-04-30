@@ -224,6 +224,12 @@ footer {
 	margin: 0;
 }
 
+.quotee {
+	font-style: italic;
+	text-align: right;
+	padding: 1em;
+}
+
 .content {
 	margin: 0;
 	padding: 0;
