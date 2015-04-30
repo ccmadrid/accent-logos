@@ -328,7 +328,7 @@ footer {
 	.galleria {
 	width: 100%;
 	height: 20em;
-	background: #000
+	background: rgba(0,0,0,0);
 	}
 
 	.content {
