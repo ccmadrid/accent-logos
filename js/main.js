@@ -15,23 +15,22 @@ $thumbs.on('click', 'a', function (e) {
 	$lb.attr('data-state', 'visible');
 	$lbHeading.html($(this).attr('data-title'));
 	$lbCaption.html($(this).attr('data-caption'));
-	$main.toggleClass('js-blur');
+});
+
+$('body').keydown(function (e) {
+	if (e.keyCode==27) $lb.attr('data-state', 'hidden');
 });
 
 $btnClose.on('click', function () {
 	$lb.attr('data-state', 'hidden');
-	$main.removeClass('js-blur');
 });
 
 $navBtn.on('click', function () {
 	$menu.toggleClass('js-menu-open');
-	$main.toggleClass('js-blur');
-	$('body').toggleClass('js-no-scroll')
 });
 
 $menu.on('click', 'a', function (e) {
 	$menu.removeClass('js-menu-open');
-	$main.removeClass('js-blur');
 });
 
 $('.nav-list').localScroll({
