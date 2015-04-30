@@ -226,6 +226,10 @@ footer {
   top: 6em; left: 0; bottom: 0; right: 0;
 }
 
+.services-content {
+	height: 810vw;
+}
+
 .contact-list {
 	margin: 0;
 	padding: 0;
@@ -243,7 +247,7 @@ footer {
 }
 
 .services {
-	height: 800vw;
+	height: 830vw;
 }
 
 .services h2 {
