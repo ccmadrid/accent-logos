@@ -424,17 +424,12 @@ header {
   position: absolute;
   height: calc(100vh - 6em);
   top: 6em; left: 0; bottom: 0; right: 0;
-  z-index: -1;
 }
-
-/*.gallery-content .grid {
-	height: 100%;
-}*/
 
 .gallery {
 	height: 100vh;
 	background-color: #000;
-	z-index: -2
+	/*z-index: -2*/
 }
 
 .contact-list {
@@ -566,9 +561,10 @@ footer {
 		height: 100vh;
 	}
 
-	.gallery-content{
+/*	.gallery-content{
 		z-index: -1;
-}
+}*/
+
 	.logo img {
 		left: 6%;
 		width: 10em;
