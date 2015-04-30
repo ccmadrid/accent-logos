@@ -227,7 +227,7 @@ footer {
 }
 
 .services-content {
-	height: 810vw;
+	height: auto;
 }
 
 .contact-list {
@@ -247,7 +247,7 @@ footer {
 }
 
 .services {
-	height: 836vw;
+	height: 236vw;
 }
 
 .services h2 {
