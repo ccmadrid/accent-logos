@@ -305,8 +305,8 @@ header {
 	background-size: auto 20em, cover;
 	background-repeat: repeat, no-repeat;
 	background-position: 0px 0px, center;
-	-webkit-animation: scroll 10000ms linear infinite, none;
-	animation: scroll 10000ms linear infinite, none;
+	-webkit-animation: scroll 20000ms linear infinite, none;
+	animation: scroll 20000ms linear infinite, none;
 	vertical-align: center;
 }
 
@@ -361,6 +361,7 @@ header {
 	background-image: url("../images/textured_header.svg");
 	background-size: cover;
 	background position: center;
+	margin-bottom: 0;
 }
 
 .content {
@@ -385,6 +386,10 @@ header {
 	width: 100%;
 }
 
+.clip {
+	z-index: -1;
+}
+
 .services-content {
 	height: auto;
 	background-color: #000;
@@ -406,11 +411,16 @@ header {
 
 .gallery-content {
 	height: 100vh;
+	margin: 0;
+	padding: 0;
+  position: absolute;
+  height: calc(100vh - 6em);
+  top: 6em; left: 0; bottom: 0; right: 0;
 }
 
-.gallery-content .grid {
+/*.gallery-content .grid {
 	height: 100%;
-}
+}*/
 
 .gallery {
 	height: 100vh;
@@ -501,9 +511,7 @@ footer {
 		background-color: rgba(255,255,255,0);
 	}
 
-.nav-list a {
-/*		position: absolute;
-		right: 0;*/
+	.nav-list a {
 		padding-top: 0.75em;
 		margin: 0.5em 0;
 		height: 3em;
@@ -533,6 +541,10 @@ footer {
 	.content {
 		height: auto;
 	}
+
+	.gallery {
+	height: 100vh;
+
 }
 
 
