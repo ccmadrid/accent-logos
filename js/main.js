@@ -8,6 +8,22 @@ var $btnClose = $('.btn-close');
 var $lbHeading = $('.lightbox-heading');
 var $lbCaption = $('.lightbox-caption');
 
+//==============================================================================
+// NAV STUFF
+//==============================================================================
+
+$navBtn.on('click', function () {
+	$menu.toggleClass('js-menu-open');
+});
+
+$menu.on('click', 'a', function (e) {
+	$menu.removeClass('js-menu-open');
+});
+
+//==============================================================================
+//LIGHTBOX STUFF
+//==============================================================================
+
 $thumbs.on('click', 'a', function (e) {
 	e.preventDefault();
 	var big = $(this).attr('href');
@@ -19,22 +35,22 @@ $thumbs.on('click', 'a', function (e) {
 
 $('body').keydown(function (e) {
 	if (e.keyCode==27) $lb.attr('data-state', 'hidden');
-});
+});//closes lightbox with 'esc' key
 
 $btnClose.on('click', function () {
 	$lb.attr('data-state', 'hidden');
 });
 
-$navBtn.on('click', function () {
-	$menu.toggleClass('js-menu-open');
-});
-
-$menu.on('click', 'a', function (e) {
-	$menu.removeClass('js-menu-open');
-});
+//==============================================================================
+//SMOOTH SCROLL STUFF
+//==============================================================================
 
 $('.nav-list').localScroll({
 });
+
+//==============================================================================
+// GALLERY STUFF
+//==============================================================================
 
 Galleria.loadTheme('galleria/themes/classic/galleria.classic.min.js');
 Galleria.run('.galleria');
