@@ -220,6 +220,10 @@ footer {
 	width: 100%;
 }
 
+.about p {
+	margin: 0;
+}
+
 .content {
 	margin: 0;
 	padding: 0;
