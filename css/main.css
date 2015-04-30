@@ -44,12 +44,12 @@ header {
 .logo {
 	position: absolute;
 	-webkit-filter: drop-shadow(0 1px 5px rgba(0,0,0,.5));
-	z-index: 400;
 }
 
 .logo img{
 	height: 6em;
 	position: fixed;
+	z-index: 999;
 }
 
 h1 {
@@ -60,6 +60,7 @@ h1 {
 	margin: 0;
 	position: absolute;
 	width: 100%;
+	z-index: 9;
 }
 
 .menu {
@@ -134,6 +135,10 @@ h1 {
 	background-size: cover;
 	background-position: center;
 	height: calc(100vh - 4em);
+}
+
+.vignette img {
+	z-index: 0;
 }
 
 .section-head {
@@ -265,7 +270,7 @@ footer {
 		right: 0;
 		width: calc(100% - 8em);
 		height: 4em;
-		z-index: 200;
+		z-index: 80;
 		height: 4em;
 		display: block;
 	}
