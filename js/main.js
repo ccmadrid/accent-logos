@@ -1,6 +1,6 @@
 var $navBtn = $('.nav-btn');
 var $menu = $('.menu');
-var $main = $('.main');
+
 var $thumbs = $('.thumbnails');
 var $lbImg = $('.lightbox-img');
 var $lb = $('.lightbox');
