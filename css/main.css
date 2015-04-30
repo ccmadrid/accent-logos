@@ -538,13 +538,28 @@ footer {
 		min-height: 36em;
 	}
 
+	.section-head {
+		padding: 1em 1em 1em calc(6% + 7em);
+		font-size: 2em;
+	}
+
 	.content {
 		height: auto;
 	}
 
 	.gallery {
-	height: 100vh;
+		height: 100vh;
+	}
 
+	.gallery-content{
+		z-index: -1;
+}
+	.logo img {
+		left: 6%;
+		width: 10em;
+		height: auto;
+		z-index: 99999;
+	}
 }
 
 
