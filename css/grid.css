@@ -164,7 +164,7 @@
 
 }
 
-@media only screen and (min-width: 38em) {
+@media only screen and (min-width: 35em) {
 
 .unit-m-hidden {
   display: none;
@@ -197,6 +197,9 @@
   margin-left: 33.3333%;
 }
 
+.unit-offset-m-1-6 {
+  margin-left: 16.6666%;
+}
 .unit-m-2-3 {
   width: 66.6667%;
 }
